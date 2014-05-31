@@ -1,6 +1,6 @@
 # Middleman Deploy
 
-Deploy your [Middleman](http://middlemanapp.com/) build to **rsync**, **ftp**, **sftp**, or **git** (e.g. gh-pages on github).
+Deploy your [Middleman](http://middlemanapp.com/) build via **rsync**, **ftp**, **sftp**, or **git** (e.g. [gh-pages on github](https://help.github.com/articles/creating-project-pages-manually)).
 
 ## Installation
 
@@ -19,7 +19,7 @@ $ middleman deploy [--build-before]
 
 Middleman-deploy can deploy a site via rsync, ftp, sftp, or git. Checkout [the wiki](https://github.com/tvaughan/middleman-deploy/wiki/_pages) for advanced set-up options.
 
-### rsync
+### Rsync
 
 Make sure that `rsync` is installed, and activate the extension by adding the
 following to `config.rb`:
